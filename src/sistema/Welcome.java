@@ -76,11 +76,12 @@ public class Welcome extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        Welcome ventanaWelcome = new Welcome();
-        ventanaWelcome.setBounds(0, 0, 350, 450);
-        ventanaWelcome.setVisible(true);
-        ventanaWelcome.setResizable(false);
-        ventanaWelcome.setLocationRelativeTo(null);
+        Welcome windowWelcome = new Welcome();
+        windowWelcome.setBounds(0, 0, 350, 450);
+        windowWelcome.setVisible(true);
+        windowWelcome.setResizable(false);
+        windowWelcome.setLocationRelativeTo(null);
+        windowWelcome.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
 

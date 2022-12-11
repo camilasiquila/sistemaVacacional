@@ -24,6 +24,7 @@ public class Main extends JFrame implements ActionListener {
         autorName = windowWelcome.texto;
 
 
+
         menuBar= new JMenuBar();
         menuBar.setBackground(new Color(224, 192, 79));
         setJMenuBar(menuBar);
@@ -318,5 +319,6 @@ public class Main extends JFrame implements ActionListener {
                 mainWindow.setVisible(true);
                 mainWindow.setResizable(false);
                 mainWindow.setLocationRelativeTo(null);
+                mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             }
         }

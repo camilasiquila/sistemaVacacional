@@ -108,5 +108,6 @@ public class Licence extends JFrame implements ActionListener, ChangeListener {
         licenceWindow.setVisible(true); //interfaz que sea visible
         licenceWindow.setResizable(false); //para que el ussuario no modifique las dimesiones de mi interfaz
         licenceWindow.setLocationRelativeTo(null); //que cuando se inicie la interfaz, se muestre en el centro de la pantalla
+        licenceWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
